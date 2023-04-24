@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Template_4337"
         mc:Ignorable="d"
-        Title="Sosnovskaya_4337" Height="500" Width="400">
+        Title="Sosnovskaya_4337" Height="300" Width="300">
     <Grid>
-        
+        <DockPanel LastChildFill="False" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="BnImport" DockPanel.Dock="Top" Width="150" Height="50" Content="Импорт данных" Click="BnImport_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+            <Button x:Name="BnExport" DockPanel.Dock="Top" Width="150" Height="50" Content="Экспорт в Excel" Click="BnExport_Click" Margin="0 20 0 0" VerticalAlignment="Top"></Button>
+        </DockPanel>
     </Grid>
 </Window>
